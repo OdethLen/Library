@@ -24,8 +24,10 @@ namespace Library
 
         public  double GetTotalCost ()
             {
-            double tc=Unitary_cost*Number_copies;
-            return tc;  
+            //double tc=Unitary_cost*Number_copies;
+            //return tc;
+
+            return Unitary_cost * Number_copies;
             }
     }
 }
